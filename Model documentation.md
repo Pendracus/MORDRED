@@ -2,6 +2,9 @@
 Here we will upload an exhaustive model documentation which will be updated regularly.
 # Documentation structure
 1. MORDRED-1.0 Structure
+   1. A nested numbered list
+   2. Which is numbered
+          
 1.1. Demography
 1.2. Economy
 1.3. Labor
@@ -9,7 +12,7 @@ Here we will upload an exhaustive model documentation which will be updated regu
 1.5. Land
 1.6. Stressors
 1.7. Climte
-2. MORDRED-1.0 Model Data
+3. MORDRED-1.0 Model Data
    2.1. Demography
    2.2. Economy
    2.3. Labor
