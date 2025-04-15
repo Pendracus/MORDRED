@@ -1,5 +1,5 @@
 ## Overview MORDRED Versions
-* Version 1.0: Basic version for which an extensive documentation is provided.
+* Version 1.0: Basic version for which an extensive documentation is provided. 
 * Version 1.0.1: Difference to Version 1.0: An additional 'growth slowdown factor' was added whose effect is a reduction of the growth in consumption demand of households once the sum of direct climate damages on labor productivity and and indirect damages through the output loss factor in the food sector (sector no. 1) exceeds 0.6. The growth rate of consumption demands reaches zero once the sum of the two damage factors reach 0.9. This factor avoids a sudden collapse of the simulation in the moment where the food sector becomes unsustainable due to escalating climate damages on labor productivity. 
 * Version 1.0.2: Difference to Version 1.0.1:
   1. A regulation factor was added that imposes a limit on the rate at which demand for more land generated from an expanding economy can grow. This implies a limit on the rate at which 'natural' land not used by the human economy can be integrated into the economy, i.e. by converting forests into cropland. 
@@ -12,6 +12,6 @@
   4. The desired growth rates of different households was adapted to allow the introduction of sufficiency policies; a corresponding switch was added to activate and desactivate the sufficiency policy.
   5. An efficiency multiplier was added that changes the Technological Impact Factor to simulate efficiency policies.
   6. The material intensity data was updated from Exiobase Data to data from the USGS and from the Supplementary Material of Henckens 2021 (which is also based on the USGS) for Bauxite and aluminium; Copper; Gold; Iron, Lead; Nickel; Silver; Tin; Zinc. However, it is important to keep in mind that this data gives the intensity of Mineral PRODUCTION (kt / mio€), rather than the intensity of 'used domestic extraction' contained in the original Exiobase data.
-* Version 1.2: inequality factors
+* Version 1.1: inequality factors
   1.
   2. The material intensity data was updated from Exiobase Data to data from the USGS and from the Supplementary Material of Henckens 2021 (which is also based on the USGS) for Bauxite and aluminium; Copper; Gold; Iron, Lead; Nickel; Silver; Tin; Zinc; Kaolin Clay; Salt. However, it is important to keep in mind that this data gives the intensity of Mineral PRODUCTION (kt / mio€), rather than the intensity of 'used domestic extraction' contained in the original Exiobase data. The USGS provides data for mineral production of the US in the case of gravel and sand (category: sand and gravel, construction). Comparing the data given for the US with the Exiobase 'domestic extraction used' data for 'gravel&sand' yields that the data have the same order of magnitude and that the Exiobase data for this material category likely constitute an acceptable estimate. 
