@@ -7,6 +7,11 @@
   3. The input requirement function for the energy sector that increases as a function of available fossil resources was changed from exponential to linear.
 * Version 1.0.3: Difference to Version 1.0:
   1. A regulation factor was added that imposes a limit on the rate at which demand for more land generated from an expanding economy can grow (see Version 1.0.2.1.)
-  2. The model was extended to allow the exogenization of fertility rates.
-  3. An IPAT multiplier was added that xx
-* Version 1.2: inequality factors  
+  2. A Technological Impact Factor was added that endogenizes the energy and material input requirements, represented by the sectors 3,4,10, 12,13,14,15,16,17,18,19 and 20, for all 25 sectors of the A-Matrix.
+  3. The model was extended to allow the exogenization of fertility rates.
+  4. The desired growth rates of different households was adapted to allow the introduction of sufficiency policies; a corresponding switch was added to activate and desactivate the sufficiency policy.
+  5. An efficiency multiplier was added that changes the Technological Impact Factor to simulate efficiency policies.
+  6. The material intensity data was updated from Exiobase Data to data from the USGS and from the Supplementary Material of Henckens 2021 (which is also based on the USGS) for Bauxite and aluminium; Copper; Gold; Iron, Lead; Nickel; Silver; Tin; Zinc. However, it is important to keep in mind that this data gives the intensity of Mineral PRODUCTION (kt / mio€), rather than the intensity of 'used domestic extraction' contained in the original Exiobase data.
+* Version 1.2: inequality factors
+  1.
+  2. The material intensity data was updated from Exiobase Data to data from the USGS and from the Supplementary Material of Henckens 2021 (which is also based on the USGS) for Bauxite and aluminium; Copper; Gold; Iron, Lead; Nickel; Silver; Tin; Zinc; Kaolin Clay; Salt. However, it is important to keep in mind that this data gives the intensity of Mineral PRODUCTION (kt / mio€), rather than the intensity of 'used domestic extraction' contained in the original Exiobase data. The USGS provides data for mineral production of the US in the case of gravel and sand (category: sand and gravel, construction). Comparing the data given for the US with the Exiobase 'domestic extraction used' data for 'gravel&sand' yields that the data have the same order of magnitude and that the Exiobase data for this material category likely constitute an acceptable estimate. 
