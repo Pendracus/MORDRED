@@ -20,4 +20,6 @@ todo: chck in which version/papers function is linear, exponential, logarithmic!
 * Version 1.1.1:
   1. The material intensity data was updated from Exiobase Data to data from the USGS and from the Supplementary Material of Henckens 2021 (which is also based on the USGS) for Bauxite and aluminium; Copper; Gold; Iron, Lead; Nickel; Silver; Tin; Zinc; Kaolin Clay; Salt. However, it is important to keep in mind that this data gives the intensity of Mineral PRODUCTION (kt / mio€), rather than the intensity of 'used domestic extraction' contained in the original Exiobase data. The USGS provides data for mineral production of the US in the case of gravel and sand (category: sand and gravel, construction). Comparing the data given for the US with the Exiobase 'domestic extraction used' data for 'gravel&sand' yields that the data have the same order of magnitude and that the Exiobase data for this material category likely constitute an acceptable estimate.
   2. INDUSTRIAL ROUNDWOOD
-  3. The input requirement function for the energy sector that increases as a function of available fossil resources was changed from exponential to linear. 
+  3. The input requirement function for the energy sector that increases as a function of available fossil resources was changed from exponential to linear.
+* Version 1.1.2:
+  1. Planetary boundary indicators were added. 
