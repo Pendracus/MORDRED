@@ -17,7 +17,7 @@ todo: chck in which version/papers function is linear, exponential, logarithmic!
   1. A regulation factor was added that imposes a limit on the rate at which demand for more land generated from an expanding economy can grow. This implies a limit on the rate at which 'natural' land not used by the human economy can be integrated into the economy, i.e. by converting forests into cropland.
   2. A birth rate multiplier was added that allows exogenously modifying the age-specific birth rates in the three world regions and for the subsistence class.
   3. Birth rates can be introduced exogeneously.
-  4. The evolution of sectorial labor productivity was endogenized as an exponentially decaying function of average per capita consumption in the world economy.
+  4. The evolution of sectorial labor productivity was endogenized as an exponentially decaying function of average per capita consumption in the world economy. The parameters and functions are the same as in version 1.1.
   5. A region-based mortality rate index was calculated that takes a value of 100 in every region at the start of the simulation. 
 * Version 1.1.0:
   1. Inequality factors: The variable 'inequality factor' was added that allows the model user to specify the evolution of inequality levels between classes and regions over the simulation. The Vensim ALLOCATE function that is used in Version 1.0. to distribute shares of final demand to different households in the case of scarcity was removed so that in the case of scarcity consumption of all classes and regions is reduced proportionally to maintain the inequality levels specified by the respective scenario.
@@ -28,4 +28,6 @@ todo: chck in which version/papers function is linear, exponential, logarithmic!
   2. INDUSTRIAL ROUNDWOOD
   3. The input requirement function for the energy sector that increases as a function of available fossil resources was changed from exponential to linear.
 * Version 1.1.2:
-  1. Planetary boundary indicators were added. 
+  1. Planetary boundary indicators were added.
+* Version 1.1.3: Differences to 1.1.0
+  1. Endogenization of sectorial labor productivities using an exponentially decaying function of average per capita consumption in the world economy. 
