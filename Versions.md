@@ -30,4 +30,4 @@ todo: chck in which version/papers function is linear, exponential, logarithmic!
 * Version 1.1.2:
   1. Planetary boundary indicators were added.
 * Version 1.1.3: Differences to 1.1.0
-  1. Endogenization of sectorial labor productivities using an exponentially decaying function of average per capita consumption in the world economy. 
+  1. Endogenization of sectorial labor productivities using an exponentially decaying function of average per capita consumption in the world economy. Function: alpha_s*exp(beta_s*average consumption per capita). Sectorial labor productivites in the default parametrization (BG) take the values belonging to the global level in the initial moment of the simulation at a global per capita consumption 4% below the per capita consumption in the initial moment of the simulation. Sectorial labor productivites in the default parametrization (BG) take the values belonging to the high-income countries in the initial moment of the simulation at a global per capita consumption 3% below the per capita consumption of the high-income countries in the initial moment of the simulation.
