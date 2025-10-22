@@ -31,8 +31,6 @@ todo: chck in which version/papers function is linear, exponential, logarithmic!
   2. INDUSTRIAL ROUNDWOOD
   3. The input requirement function for the energy sector that increases as a function of available fossil resources was changed from exponential to linear (this is not the case for P5) -> to which P does this version belong??
   4. The urbanization indicator was integrated from version 1.0.5.
-* Version 1.1.2:
-  1. Planetary boundary indicators were added.
-* Version 1.1.3: Differences to 1.1.0
+* Version 1.1.2: Differences to 1.1.0
   1. Endogenization of sectoral labor productivities using an exponentially decaying function of average per capita consumption in the world economy. Function: alpha_s*exp(beta_s*average consumption per capita). Sectoral labor productivites in the default parametrization (BG) take the values belonging to the global level in the initial moment of the simulation at a global per capita consumption 4% below the per capita consumption in the initial moment of the simulation. Sectoral labor productivites in the default parametrization (BG) take the values belonging to the high-income countries in the initial moment of the simulation at a global per capita consumption 3% below the per capita consumption of the high-income countries in the initial moment of the simulation.
   2. An additional 'growth slowdown factor' was added whose effect is a reduction of the growth in consumption demand of households once the sum of direct climate damages on labor productivity and and indirect damages through the output loss factor in the food sector (sector no. 1) exceeds 0.6. The growth rate of consumption demands reaches zero once the sum of the two damage factors reach 0.9. This factor avoids a sudden collapse of the simulation in the moment where the food sector becomes unsustainable due to escalating climate damages on labor productivity. 
