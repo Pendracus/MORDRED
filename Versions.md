@@ -26,19 +26,23 @@
 * Version 1.0.6: Differences to version 1.0:
  1. Integration of the option to endogenize sectoral labor productivities through a labor intensity multiplier that decreases exponentially as average per capita consumption in the world economy increases.
  2. Integration of the option to endogenize sectoral land productivities for different land types through a land intensity multiplier that decreases exponentially as average per capita consumption in the world economy increases.
-* Version 1.1.0: Differences to version 1.0:
+* Version 1.1: Differences to version 1.0:
   1. Inequality factors: The variable 'inequality factor' was added that allows the model user to specify the evolution of inequality levels between classes and regions over the simulation. The Vensim ALLOCATE function that is used in Version 1.0. to distribute shares of final demand to different households in the case of scarcity was removed so that in the case of scarcity consumption of all classes and regions is reduced proportionally to maintain the inequality levels specified by the respective scenario.
   2. Instead of exogenously setting desired consumption growth rates for all classes as in version 1.0, only the consumption growth rate of the poorest 30% of the formal economy (B30) of the periphery is exogeneously determined, with the desired consumption of the other classes calculated based on the specification of the inequality factors.
   3. A target consumption was set for the B30 of the periphery that allows for a change in the desired consumption growth rate once the target value is crossed.
   4. A regulation factor was added that imposes a limit on the rate at which demand for more land generated from an expanding economy can grow. This implies a limit on the rate at which 'natural' land not used by the human economy can be integrated into the economy, i.e. by converting forests into cropland. 
-* Version 1.1.1:
+* Version 1.1.1: Differences to version 1.1.
   1. The material intensity data based on Exiobase3 was replaced by USGS data and by data given in the Supplementary Material of Henckens 2021 (which is also based on the USGS) for Bauxite and aluminium; Copper; Gold; Iron, Lead; Nickel; Silver; Tin; Zinc; Kaolin Clay; Salt. However, it is important to keep in mind that this data gives the intensity of mineral production (kt / mio€), rather than the intensity of 'used domestic extraction' contained in the original Exiobase data. The USGS provides data for mineral production of the US in the case of gravel and sand (category: sand and gravel, construction). Comparing the data given for the US with the Exiobase 'domestic extraction used' data for 'gravel&sand' yields that the data have the same order of magnitude and that the Exiobase data for this material category likely constitute an acceptable estimate.
   2. The industrial roundwood intensity data based on Exiobase3 was replaced by data by the FAO ((https://openknowledge.fao.org/server/api/core/bitstreams/16e00ac5-32f4-4ccd-89f6-4e902d299e02/content) for global industrial roundwood production in m³ for the year 2016. Industrial roundwood intensity is derived by dividing this value by the output of sector 2.
   3. The urbanization indicator was integrated from version 1.0.5.
-* Version 1.1.2: Differences to 1.1.0
+* Version 1.1.2: Differences to version 1.1.
   1. Endogenization of sectoral labor productivities using an exponentially decaying function of average per capita consumption in the world economy. Function: alpha_s*exp(beta_s*average consumption per capita). Sectoral labor productivites in the default parametrization (BG) take the values belonging to the global level in the initial moment of the simulation at a global per capita consumption 4% below the per capita consumption in the initial moment of the simulation. Sectoral labor productivites in the default parametrization (BG) take the values belonging to the high-income countries in the initial moment of the simulation at a global per capita consumption 3% below the per capita consumption of the high-income countries in the initial moment of the simulation.
   2. An additional 'growth slowdown factor' was added whose effect is a reduction of the growth in consumption demand of households once the sum of direct climate damages on labor productivity and and indirect damages through the output loss factor in the food sector (sector no. 1) exceeds 0.6. The growth rate of consumption demands reaches zero once the sum of the two damage factors reach 0.9. This factor avoids a sudden collapse of the simulation in the moment where the food sector becomes unsustainable due to escalating climate damages on labor productivity.
-* Version 1.1.3: Differences to 1.1.0
+* Version 1.1.3: Differences to version 1.1.
   1. A Planetary boundary module was added that calculates planetary boundary indices (PBIs). Data for several model variables was updated to improve the calculation of PBIs. 
-* Version 1.1.4:
+* Version 1.1.4: Differences to version 1.1.
   1.  The input requirement function for the energy sector that increases as a function of available fossil resources was changed from exponential to linear.
+* Version 1.1.5: Differences to version 1.1.
+  1. EXPLAIN
+* Version 1.1.6: Differences to version 1.1.
+  1. EXPLAIN
