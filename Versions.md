@@ -43,6 +43,10 @@
 * Version 1.1.4: Differences to version 1.1.
   1.  The input requirement function for the energy sector that increases as a function of available fossil resources was changed from exponential to linear.
 * Version 1.1.5: Differences to version 1.1.
-  1. EXPLAIN
+  1. Incorporation of two target A matrices, two target sectoral shares of government consumption, two target sectoral shares of government consumption, two target sectoral shares of investment to reflect differences in conditions between a 'business as usual' time period and a 'transition' time period.
+  2. EXPLAIN
 * Version 1.1.6: Differences to version 1.1.
-  1. EXPLAIN
+  1. Incorporation of two target A matrices, two target sectoral shares of government consumption, two target sectoral shares of government consumption, two target sectoral shares of investment to reflect differences in conditions between a 'business as usual' time period and a 'transition' time period.
+  2. EXPLAIN
+* Version 1.1.7: Differences to version 1.1.
+  1. Incorporation of two target A matrices, two target sectoral shares of government consumption, two target sectoral shares of government consumption, two target sectoral shares of investment to reflect differences in conditions between a 'business as usual' time period and a 'transition' time period.
