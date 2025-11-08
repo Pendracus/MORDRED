@@ -44,9 +44,12 @@
   1.  The input requirement function for the energy sector that increases as a function of available fossil resources was changed from exponential to linear.
 * Version 1.1.5: Differences to version 1.1.
   1. Incorporation of two target A matrices, two target sectoral shares of government consumption, two target sectoral shares of government consumption, two target sectoral shares of investment to reflect differences in conditions between a 'business as usual' time period and a 'transition' time period.
-  2. EXPLAIN
+  2. Introduction of a fertility multiplier to simulate population policies.
+  3. Integration of an endogenous component influencing sectoral land productivities for different land types through a land intensity multiplier that decreases exponentially as sectoral per capita output in sector 1 & 2 increases. 
 * Version 1.1.6: Differences to version 1.1.
   1. Incorporation of two target A matrices, two target sectoral shares of government consumption, two target sectoral shares of government consumption, two target sectoral shares of investment to reflect differences in conditions between a 'business as usual' time period and a 'transition' time period.
-  2. EXPLAIN
+  2. Introduction of a fertility multiplier to simulate population policies.
+  3. Integration of an endogenous component influencing sectoral land productivities for different land types through a land intensity multiplier that decreases exponentially as sectoral per capita output in sector 1 & 2 increases.
+  4. Integration of an endogeneous component influencing sectoral labor productivities through a labor intensity multiplier that decreases exponentially as average per capita consumption in the world economy increases.
 * Version 1.1.7: Differences to version 1.1.
   1. Incorporation of two target A matrices, two target sectoral shares of government consumption, two target sectoral shares of government consumption, two target sectoral shares of investment to reflect differences in conditions between a 'business as usual' time period and a 'transition' time period.
