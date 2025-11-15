@@ -1,5 +1,5 @@
-| Sector number    | Sector description  |
-| -------- | ------- |
+|Sector number   |Sector description  |
+| -------- | -------- |
 | 1  | Agriculture, food, beverages    |
 | 2 | Non-energy use of biomass    |
 | 3    | Fossil fuels used for energy    |
