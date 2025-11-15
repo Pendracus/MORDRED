@@ -43,6 +43,9 @@ The total initial population in the three world regions and in the 20 age groups
 * The remaining population in center, semiperiphery and periphery lives within the formal economy and is matched to one of three classes within each MEM region (cf. section xx). 
 
 
+The flow is constrained by the availability of land for subsistence agriculture, which is calculated in the land use module:
+〖Mr〗_(r,cl)^we2sub=max(0,min(0.1,ß0-ß1∙〖Cpc〗_(r,cl)^(we,s) (ts-1)))
+〖MaxP〗^sub=〖Lnd〗_s∙〖Int〗_(sub_lnd)^Lnd
 
 
 
