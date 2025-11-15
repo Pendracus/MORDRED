@@ -4,7 +4,7 @@
 | 2 | Non-energy use of biomass    |
 | 3    | Fossil fuels used for energy    |
 |4	| Mining|
-5	Industry not elsewhere classified
+|5	| Industry not elsewhere classified|
 6	Recycling industry
 7	Services not elsewhere classified
 8	Non-energy use of fossil fuels
