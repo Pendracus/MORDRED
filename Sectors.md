@@ -24,4 +24,4 @@
 |22	|Education |
 |23	|Health |
 |24	|Waste industry |
-|25	|Waste ‚recycling‘ (biogasification & composting) industry |
+|25	|Waste 'recycling' (biogasification & composting) industry |
