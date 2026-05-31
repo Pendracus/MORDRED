@@ -17,7 +17,7 @@
   1. A regulation factor was added that imposes a limit on the rate at which demand for more land generated from an expanding economy can grow. This implies a limit on the rate at which 'natural' land not used by the human economy can be integrated into the economy, i.e. by converting forests into cropland.
   2. A birth rate multiplier was added that allows exogenously modifying the age-specific birth rates in the three world regions and for the subsistence class.
   3. Birth rates can be introduced exogeneously.
-  4. The evolution of sectoral labor productivity was endogenized as an exponentially decaying function of average per capita consumption in the world economy. The parameters and functions are the same as in version 1.1.
+  4. The evolution of sectoral labor productivity was endogenized as an exponentially decaying function of average per capita consumption in the world economy. The parameters and functions are the same as in version 1.1. The growth slowdown factor for labor was improved to avoid exaggerated collapse dynamics.
   5.  A region-based mortality rate index was calculated that takes a value of 100 in every region at the start of the simulation.
 * Version 1.0.5: Difference to version 1.0.:
   1. An urbanization indicator was constructed based on existing model variables.
